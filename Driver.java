@@ -126,11 +126,11 @@ public class Driver {
         dog.setBreed(input);
         
         // While loop that checks gender input
-        System.out.println("What is the gender of the monkey (Male or Female)?");
+        System.out.println("What is the gender of the dog (Male or Female)?");
         input = scanner.nextLine();
         while (!(input.equalsIgnoreCase("Male")) && !(input.equalsIgnoreCase("Female"))) {
         	System.out.println("You have not selected a gender from the list. Please select one.");
-        	System.out.println("What is the gender of the monkey (Male or Female)?");
+        	System.out.println("What is the gender of the dog (Male or Female)?");
             input = scanner.nextLine();
         }
         dog.setGender(input);
